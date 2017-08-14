@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*      banner       */
+
+
+.floatBox{
+	color: #000\9;
+}	
+
+/*       main       */
+.main-x{
+	margin: 50px auto 20px;
+	}
+
+.main-product{
+	width: 1366px;
+	height:auto;
+	}	
+	
+.main-product-title{
+	width:1040px;
+	padding:0 20px;
+	height:60px;
+	line-height:60px;
+	}	
+
+.main-product-title span{
+	float:right;
+	line-height:60px;
+	}
+	
+.main-product-list{
+	width: 1366px;
+	height:auto;
+	}
+
+.main-product-list li{
+	width: 326px;
+    height: 245px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    float: left;
+    overflow: hidden;
+	}
+
+.main-product-list .productImg{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.main-product-list div img{
+	width: 100%;
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.main-product-list li span{
+	width: 80%;
+    padding: 0 10%;
+	height:45px;
+	display:block;
+	line-height:45px;
+	text-align:center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #444;
+    font-size: 16px;
+	}	

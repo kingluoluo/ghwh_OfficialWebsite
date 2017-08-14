@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*     banner     */
+.floatBox-top{
+	height:80px;
+	}
+
+.floatBox{
+	/* color: #000; */
+}	
+
+/*      main      */
+.main-x{
+	background: #fff;
+}
+
+.main-join{
+	padding: 30px 0 100px;
+	margin:0 auto;
+	width: 1366px;
+}
+
+.main-join-title{
+	width: 1220px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 auto;
+	font-size: 22px;
+	}	
+
+.main-join-title span{
+/*	width:70px;
+	height:60px;
+	display:block;*/
+	line-height:80px;
+	float:right;
+	margin-right: 22px;
+	}
+	
+.main-join-list{
+		width:1366px;
+		height:auto;
+		clear:both;
+	}
+	
+.main-join-list dt{
+	width: 1200px;
+	height: 60px;
+	padding: 0 83px;
+	line-height: 60px;
+	background:url(../images/bg_join_title_2.png) no-repeat right;
+	background-position-x: 1308px;
+	background-position-y: 22px;
+	background-color: #f3f3f3;
+	border-radius: 6px;
+	box-shadow: 4px 4px 10px #ccc;
+	margin-bottom: 16px;
+	}
+	 
+.main-join-list dt{
+	font-weight: 900;
+	font-size: 16px;
+}
+
+.main-join-list dt:hover{
+	cursor: pointer;
+}
+
+.main-join-list .dtOddOn{
+	background:url(../images/bg_join_title_1.png) no-repeat right;
+	background-position-x: 1308px;
+	background-position-y: 22px;
+	background-color:  #CB9B0C !important;
+    color: #fff;
+}
+
+.main-join-list .dtEvenOn{
+	background:url(../images/bg_join_title_1.png) no-repeat right;
+	background-position-x: 1308px;
+	background-position-y: 22px;
+	background-color:  #CB9B0C !important;
+    color: #fff;
+}
+
+.main-join-list dt span{
+	float: right;
+	line-height: 60px;
+	margin-right: 16px;
+	font-weight:100;
+}
+	
+.main-join-list dd{
+	width: 1326px;
+	height:auto;
+	margin:20px;
+	background: #f7f7f7;
+	padding: 25px 0;
+	}	
+	
+.main-join-list dd p{
+	line-height: 26px;
+	}	

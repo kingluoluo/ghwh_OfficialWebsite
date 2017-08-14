@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*     banner      */
+.floatBox-top{
+	height:80px;
+	}
+
+.floatBox{
+	color: #000\9;
+}
+
+.contact_message ul{
+	width: 1366px;
+	height: 350px;
+	margin: 0 auto;
+}
+.contact_message ul li {
+	float: left;
+	width: 341px;
+	text-align: center;
+	margin-top: 110px;
+}
+
+.contact_message ul li img{
+	width: 81px;
+	height: auto;
+}
+
+.contact_message ul li p {
+	font-size: 16px;
+	line-height: 80px;
+}
+
+/*     main       */
+
+.main-x{
+	position: relative;
+	overflow: hidden;
+}
+
+.main-contact{
+	width: 100%;
+	height:400px;
+	}
+
+.main-contact-map{
+	width: 100%;
+	height: 400px;
+	margin:0 auto;
+	}
+
+.onMapMes{
+	width: 350px;
+	height: 330px;
+	background: #000;
+	position: absolute;
+	right: 0;
+	top: 0;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	-webkit-opacity: 0.8; 
+  	-moz-opacity: 0.8 ;
+	-o-opacity: 0.8 ;   		
+	-ms-opacity: 0.8 ;
+	color: #fff;
+	padding-top: 70px;
+}
+
+.onMapMes p{
+	line-height: 40px;
+	margin-left: 40px;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+.onMapMes .onMapMesBtn{
+	height: 60px;
+	width: 25px;
+	background: #000;
+	border-radius: 10px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	text-align: center;
+	line-height: 60px;
+	position: absolute;
+	left: -25px;
+    top: 50%;
+	margin-top: -30px;
+	cursor: pointer;
+}

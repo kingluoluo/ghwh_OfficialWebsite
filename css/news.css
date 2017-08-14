@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*     banner     */
+.floatBox-top{
+	height:80px;
+	}
+
+.floatBox{
+	/* color: #000; */
+}		
+
+/*      main      */
+.main-box{
+	background: #f2f2f2;
+}
+
+.main-news-x{
+	width: 1366px;
+	height: auto;
+	margin: 0 auto;
+	padding: 50px 0 100px;
+}
+
+.main-news-x-title{
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+}
+
+.main-news-x-title li{
+	width: 334px;
+	background: #cb9b0c;
+	color: #fff;
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.main-news-x-title li.current{
+	background: #fff;
+	color: #000;
+}
+
+.main-news-x-con{
+	overflow: hidden;
+	height: auto;
+	background: #fff;
+	padding: 30px 0;
+}
+
+.main-news-x-con .sublist li{
+	width: 90%;
+	height: auto;
+	margin-left: 5%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	border-bottom: 1px solid #f2f2f2;
+	cursor: pointer;
+}
+
+.main-news-x-con .sublist li:hover{
+	background: #f2f2f2;
+	color: #cb9b0c;
+}
+
+.main-news-x-con .sublist li a{
+	
+}
+
+.main-news-x-con .sublist li span{
+	float: right;
+	display: inline-block;
+    line-height: 50px;
+}
